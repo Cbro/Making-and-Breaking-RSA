@@ -1,0 +1,27 @@
+#
+# ----------------------------------------------------------------------------
+# "THE BEER-WARE LICENSE" (Revision 42):
+# <mayeu.tik@gmail.com> wrote this file. As long as you retain this notice you
+# can do whatever you want with this stuff. If we meet some day, and you think
+# this stuff is worth it, you can buy me a beer in return. Matthieu Maury
+# ----------------------------------------------------------------------------
+#
+
+                         =======================
+                           Cryptography Lab 2
+                         Making and Breaking RSA
+                         =======================
+
+Quick guide
+-----------
+
+To build the project you need the GMP library. (Work on university computer)
+To compile :
+   make
+
+To lauch
+   ./rsa <options>
+   ./rsa -h : print help (if any...)
+	./rsa -t : lauch some test
+	./rsa -a <lab file> : break the cypher in the file with k = 30
+	./rsa -k X -a <lab file> : break the cypher in the file with k = X
